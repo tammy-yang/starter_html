@@ -1,9 +1,7 @@
-/* mobile is default so no media query
-check the last assignment and correct the points lost */
-
-#main {
-    background-color: beige;
-}
+body {
+    background-color: #DADDB1;
+    margin-bottom: 50px;
+  }
 
 #skip a {
     background: white;
@@ -31,7 +29,7 @@ ul li a{
 }
   
 nav{
-    background-color: #ddd;
+    background-color: #D6C7AE;
     width: 100%;
     padding: 25px 0;
     text-align: left;
@@ -72,12 +70,13 @@ figcaption {
 }
 
 h2 {
-    background-color: blanchedalmond;
+    background-color: #B3A492;
     width: 94%;
     text-align: center;
     padding: 10px;
     margin-top: 30px;
     font-size: 30px;
+    border-radius: 30%;
 }
 
 .container img + h2 {
@@ -105,14 +104,4 @@ p {
     padding: 10px;
     justify-content: center;
 }
-  
-  
-  
-  /* Add your media query here
-  @media (min-width: 800px) {
-  
-  } */
-  
-  
-  
   

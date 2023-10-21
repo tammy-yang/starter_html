@@ -1,0 +1,127 @@
+/* mobile is default so no media query
+check the last assignment and correct the points lost */
+
+main {
+  background-color: beige;
+}
+
+#skip a {
+  background: white;
+  left: 0;
+  padding: 6px;
+  position: fixed;
+  top: -50px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+}
+
+#skip a:focus {
+  top: 0;
+}
+
+ul li a{
+  color: black;
+  text-decoration: none;
+}
+
+.currentpage {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+nav{
+  background-color: #ddd;
+  padding: 25px 0; 
+  text-align: left;
+}
+
+nav li{
+  display:inline;
+  padding-left: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 7px;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-items: center;
+  align-items: center;
+}
+
+.container > :not(img) {
+  grid-column: span 2;
+}
+
+.container img{
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+.container video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.container > h2 + img {
+  grid-column: span 2;
+  height: 300px;
+  width: auto;
+  justify-content: center;
+}
+
+h2 {
+  background-color: blanchedalmond;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+  border-top: 10px;
+}
+
+.banner {
+  grid-column: span 2;
+  width: 100%;
+  padding: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+p {
+  text-align: justify;
+  font-size: 15px;
+  line-height: 20px;
+  margin-top: 1%;
+}
+
+ol li {
+  text-align: justify;
+  margin-left: 5%;
+  line-height: 20px;
+  margin-bottom: 3%;
+}
+
+ul li {
+  margin-bottom: 1%;
+}
+
+
+/* Add your media query here
+@media (min-width: 800px) {
+
+} */
+

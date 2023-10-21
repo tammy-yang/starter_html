@@ -1,0 +1,118 @@
+/* mobile is default so no media query
+check the last assignment and correct the points lost */
+
+#main {
+    background-color: beige;
+}
+
+#skip a {
+    background: white;
+    left: 0;
+    padding: 6px;
+    position: fixed;
+    top: -50px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+  }
+  
+#skip a:focus {
+    top: 0;
+}
+  
+ul li a{
+    color: black;
+    text-decoration: none;
+}
+  
+.currentpage {
+    font-weight: bold;
+    text-decoration: underline;
+}
+  
+nav{
+    background-color: #ddd;
+    width: 100%;
+    padding: 25px 0;
+    text-align: left;
+}
+  
+nav li{
+    display: inline;
+    padding-left: 20px;
+}
+
+.container {
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    padding-top: 10px;
+}
+
+.container img {
+    width: 100%;
+    margin-right: 10px;
+}
+
+figure {
+    display: grid;
+    justify-items: center;
+}
+
+figcaption {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+h2 {
+    background-color: blanchedalmond;
+    width: 94%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.container img + h2 {
+    width: auto;
+    align-items: center;
+  }
+  
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-top: 10px;
+}
+
+p {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.banner {
+    grid-column: span 2;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+}
+  
+  
+  
+  /* Add your media query here
+  @media (min-width: 800px) {
+  
+  } */
+  
+  
+  
+  
